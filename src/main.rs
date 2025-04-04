@@ -1,13 +1,4 @@
-// use esp32_hal::{
-//     clock::ClockControl,
-//     entry,
-//     gpio::*,
-//     i2c::I2C,
-//     peripherals::Peripherals,
-//     prelude::*,
-//     Delay,
-//     IO,
-// };
+use esp_hal::i2c::I2C;
 
 fn main() {
     // It is necessary to call this function once. Otherwise some patches to the runtime
